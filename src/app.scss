@@ -1,6 +1,58 @@
+//html,body{
+ //   height: 100%;
+ //   min-height: 100%;
+    //background: url('./images/Emoji.png') center center no-repeat;
+    //background: url('https://cdn.shopify.com/s/files/1/1061/1924/files/Hugging_Face_Emoji_2028ce8b-c213-4d45-94aa-21e1a0842b4d_large.png?15202324258887420558') center center no-repeat;
+    
+//}
+
 body{
     background-color: pink;
-    p {
+    h1 {
+        color:blue
+    }
+    p{
         color:red
     }
 }
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+.square {
+    background:transparent;
+    border: 0px transparent #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 150px;
+    margin-right: auto;
+    margin-right: auto;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+  }
+
+  .titulo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .square:focus {
+    outline: none;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

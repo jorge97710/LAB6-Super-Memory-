@@ -22,25 +22,34 @@ module.exports =  {
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             use: ['babel-loader']
+          },
+          {
+            test: /\.(gif|png|jpe?g|svg)$/i,
+            use: [
+              {
+                loader: 'file-loader',
+                options: {}
+              }
+            ]
           }
     ]
       },
       devServer: {
         contentBase: path.join(__dirname, 'dist'),
-        compress: true,
-        hot:true,
-        stats:"errors-only"
+        compress: true
+       // hot:true,
+       // stats:"errors-only"
       },
       plugins: [
         new HtmlWebpackPlugin({
-          title: 'Project Demo',
+          title: 'Super Memory!',
           minify:{
             collapseWhitespace: true
           },
           template: './src/test.html'
 
         }),
-        new webpack.HotModuleReplacementPlugin()
+        //new webpack.HotModuleReplacementPlugin()
         //new webpack.NameModulesPlugin()
 
       ]
