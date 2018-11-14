@@ -1,0 +1,25 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "Primer proyecto",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch ",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorge97710/LAB6-Super-Memory-.git"
+  },
+  "author": "Jorge Azmitia <azm15202@uvg.edu.gt>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorge97710/LAB6-Super-Memory-/issues"
+  },
+  "homepage": "https://github.com/jorge97710/LAB6-Super-Memory-#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.0-beta.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
