@@ -87,7 +87,7 @@ class Board extends React.Component {
       })
     } */
   }
-
+ 
   handleClick(index) {
     console.log("INDEX: " + index);
     console.log("EL personaje es: " + cartas[index]);
