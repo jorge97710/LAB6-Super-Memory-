@@ -1,166 +1,44 @@
-//html,body{
- //   height: 100%;
- //   min-height: 100%;
-    //background: url('./images/Emoji.png') center center no-repeat;
-    //background: url('https://cdn.shopify.com/s/files/1/1061/1924/files/Hugging_Face_Emoji_2028ce8b-c213-4d45-94aa-21e1a0842b4d_large.png?15202324258887420558') center center no-repeat;
-    
-//}
-body {
-  margin: 0;
-  padding: 0;
-}
-.block {
-  //background: #78bec5;
-  background-image: url("./images/sm.png");
-  background-size: 100%;
-  position: relative;
-  transition: background-image 0.5s;
-}
 
-.block.v{
-  //background: blue;
-  
-}
-
-
-.block.v.mario{
-    background-image: url("./images/mario.png");
-    background-size: 85%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.block.v.link{
-  background-image: url("./images/link.png");
-  background-size: 100%;
-  background-position: center;
-    background-repeat: no-repeat;
-}
-.block.v.zelda{
-  background-image: url("./images/zelda.png");
-  background-size: 100%;
-  background-position: center;
-    background-repeat: no-repeat;
-}
-.block.v.kirby{
-  background-image: url("./images/kirby.png");
-  background-size: 100%;
-  background-position: center;
-    background-repeat: no-repeat;
-}
-.block.v.dk{
-  background-image: url("./images/dk.png");
-  background-size: 100%;
-  background-position: center;
-    background-repeat: no-repeat;
-}
-.block.v.pikachu{
-  background-image: url("./images/pikachu.png");
-  background-size: 110%;
-  background-position: center;
-    background-repeat: no-repeat;
-}
-.block.v.samus{
-  background-image: url("./images/samus.png");
-  background-size: 100%;
-  background-position: center;
-    background-repeat: no-repeat;
-}
-.block.v.mr{
-  background-image: url("./images/mr.png");
-  background-size: 100%;
-  background-position: center;
-    background-repeat: no-repeat;
-}
-.block.x {
-  background: #dc685a;
-}
-.block.x::after {
-  content: '\00D7';
-  font-family: 'Fira Mono';
-  color: white;
-  text-align: center;
+.titulo{
   display: block;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  font-size: 100px;
-  margin-top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.block.o {
-  background: #ecaf4f;
-}
-.block.o::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  margin-top: -23px;
-  margin-left: -23px;
-  border: 5px solid white;
-}
-.won {
-  background: rgb(63, 63, 63);
-  color: #FFF;
-  font-family: 'Fira Mono';
-  text-align: center;
-  font-size: 60px;
-  padding-top: 100px;
-  height: 100vh;
+.card {
+  //z-index: 1;
+  //background-color: #ffc0cb;
+  background-image: url("./images/sm.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  width: 21.5%;
+  height: 21.5%;
+  transition: opacity 1s ease-in-out;
+
 }
 
-.board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-
-.square {
-    background:transparent;
-    border: 0px;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 150px;
-    margin-right: auto;
-    margin-right: auto;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 150px;
-    border-radius: 50%;
-    background-size: 150px 150px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .titulo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  .square:focus {
-    outline: none;
-  }
-
-  .game {
-    display: flex;
-    flex-direction: row;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-
-
+.board {
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  background-image: url("./images/back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 
   
+
+
+
+
+
